@@ -3,7 +3,7 @@
 Disciplina PWE (Projeto Website Estático)<br>
 1º Periodo - Sistemas para Internet 2024
 
-Objetivo de construir páginas web utilizando as versões mais recentes de HTML e CSS
+Objetivo: Construção de páginas web utilizando as versões de HTML5 e CSS3
 
 ---
 
