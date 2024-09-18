@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Navbar</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+    * {
+        font-family: Oswald, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 17px;
+    }
+    ul {
+        background-color: black;
+        text-align: center;
+        padding-top: 20px;;
+    }
+    li {
+        display: inline-block;
+        
+    }
+    a {
+        color: white; 
+        text-decoration: none;
+        padding: 25px;
+        padding-top: 50px;
+        display: inline-block;
+        border-bottom: 5px solid black;
+    }
+
+    .menu {
+        background-repeat: no-repeat;
+        background-position: center 10px;
+    }
+
+    /* Facebook */
+    .menu-face{
+        background-image: url('/imagens/faceBlack.png');        
+    }
+    .menu-face:hover {
+        background-image: url('/imagens/face.png');
+        color: lightskyblue;
+        border-bottom: 5px solid lightskyblue;    
+    }
+
+    /* Instagram */
+    .menu-insta {
+        background-image: url('/imagens/instaBlack.png');
+        
+    }
+    .menu-insta:hover {
+        background-image: url('/imagens/insta.png');
+        border-bottom: 5px solid #C0345D;
+        color: #C0345D;    
+    }
+
+    /* Google Maps */
+    .menu-maps {
+        background-image: url('/imagens/mapsBlack.png');        
+    }
+    .menu-maps:hover {
+        background-image: url('/imagens/maps.png');
+        border-bottom: 5px solid green;
+        color: green;    
+    }
+
+    /* Twitter */
+    .menu-twitter {
+        background-image: url('/imagens/twitterBlack.png');
+    }
+    .menu-twitter:hover {
+        background-image: url('/imagens/twitter.png');
+        color: yellow;
+        border-bottom: 5px solid yellow;
+    }
+
+    /* YouTube */
+    .menu-youtube {
+        background-image: url('/imagens/youtubeBlack.png');
+    }
+    .menu-youtube:hover {
+        background-image: url('/imagens/youtube.png');
+        border-bottom: 5px solid #F61C0D;
+        color: #F61C0D;    
+    }
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a class="menu menu-face" href="">Facebook</a></li>
+            <li><a class="menu menu-insta" href="">Instagram</a></li>
+            <li><a class="menu menu-maps" href="">Google Maps</a></li>
+            <li><a class="menu menu-twitter" href="">Twitter</a></li>
+            <li><a class="menu menu-youtube" href="">Youtube</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
