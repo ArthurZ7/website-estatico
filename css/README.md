@@ -2,9 +2,7 @@
 
 ### [🌱 Introdução](introducao)
 
-### [🖼️ Menu com Imagem]()
-
-### [🎛 Menus](menus)
+### [🖼️ Menus](menus)
 
 ### [ Layout]()
 
