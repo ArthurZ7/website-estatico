@@ -8,11 +8,11 @@
 
 ### [📐 Formatação](formatacao)
 
-### [🔗 Listas e Links](lista-e-links)
+### [🔗 Listas e Links](listas-e-links)
 
 ### [📌 Tabelas](tabelas)
 
-### [📋 Formulários](formulario)
+### [📋 Formulários](formularios)
 
 ### [👍 Validação](validacao)
 
