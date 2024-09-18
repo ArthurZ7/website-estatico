@@ -16,4 +16,4 @@
 
 ### [👍 Validação](validacao)
 
-### [✨ Layout projetos](layout)
+### [✨ Layout projetos](layouts)
