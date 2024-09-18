@@ -4,10 +4,8 @@
 
 ### [🖼️ Menus](menus)
 
-### [ Layout]()
+### [🔧 Position Fixed](position-fixed/)
 
-### [🔧 Position fixed]()
+### [🧩 Layouts](layouts/)
 
-### [🔧 Intro Flexbox]()
-
-### [🔧 Flexbox Colunas]()
+### [📱 Responsividade](responsividade/)

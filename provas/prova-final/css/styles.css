@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+header nav ul {
+    background-color: #FFD88F;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;  
+}
+
+header nav ul li a {
+    display: block;
+    padding: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 5px solid #FFD88F;
+    margin-left: -5px;
+}
+
+header nav ul li a:hover {
+    border-top: 5px solid black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.topo .container > div {
+    width: 50%;
+    padding: 20px;
+}
+
+.topo .container div:nth-child(2) {
+    text-align: center;
+}
+
+
+.topo {
+    background-color: black;
+    padding: 50px;
+}
+
+.topo .container {
+    background-color: white;
+    border: 20px solid #FFA200;
+    border-radius: 60px;
+    padding: 20px;
+}
+
+.topo p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.topo button {
+    padding: 10px;
+    width: 150px;
+    background-color: #FF5200;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 15px;
+}
+
+.topo button:hover {
+    background-color: #FFA200;
+    cursor: pointer;
+}
+
+
+
+.produtos .container > div {
+    text-align: center;
+}
+
+.produtos h1 {
+    text-transform: uppercase;
+    color: #FF5200;
+}
+
+.produtos p {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+.pacotes {
+    background-color: #DBDBDB;
+    text-align: center;
+}
+
+.pacotes .container > div {
+    width: 33.33%;
+    padding: 20px;
+}
+
+.pacotes h1 {
+    text-transform: uppercase;
+    color: #FF5200;
+    padding-top: 60px;
+}
+
+.pacotes h2 {
+    text-align: left;
+}
+
+.pacotes p {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.viaje-conosco .container > div {
+    padding: 20px 30px;
+}
+
+.viaje-conosco summary {
+    color: #FF5200;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px 0 20px 0;
+}
+
+.destinos {
+    background-color: #FAE9CA;
+}
+
+.destinos .container > div {
+    width: 50%;
+    text-align: center;
+}
+
+.destinos h1 {
+    color: #FF5200;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    text-align: center;
+}
+

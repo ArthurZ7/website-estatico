@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 50px;
+}
+
+nav ul{
+    position: fixed;
+    top: 100px;
+    font-family: Creepster;
+}
+
+nav ul li a{
+    display: inline-block;
+    border: 2px solid black;
+    border-right: 5px solid black;
+    border-radius: 15px;
+    padding: 15px;
+    padding-left: 30px;
+    margin-top: 10px;
+    margin-left: -85px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    margin-left: -10px;
+    transition: 0.5s;
+}
+
+.cor1 {
+    background-color: #4f3579;
+}
+.cor2{
+    background-color: #6E3A9E;
+}
+.cor3{
+    background-color: #F25012;
+}
+.cor4{
+    background-color: #F28E1C;
+}
+.cor5{
+    background-color: #51AB00;
+}

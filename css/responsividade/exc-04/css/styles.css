@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Celular */
+.container {
+    display: flex;
+    flex-direction: column;
+
+    flex-wrap: wrap; /* Permite quebrar de linha */
+    justify-content: center; /* Alinha as caixas organizadoras no centro (horizontalmente)*/
+}
+
+.introducao > div > div {
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px;
+}
+
+.introducao > div > div, .produtos > div > div {
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .introducao > div > div, .produtos > div > div {
+        width: 50%;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .introducao > div > div {
+        width: 25%;
+    }
+    .produtos > div > div {
+        width: 33.33%;
+    }
+    .container {
+        flex-direction: row;
+    }
+}

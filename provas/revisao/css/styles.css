@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header nav ul{
+    text-align: right;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 15px 5px;
+}
+header nav ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+section:nth-of-type(odd) {
+    background-color: #262626;
+    color: white;
+}
+section:nth-of-type(even) {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.moldura {
+    width: 800px;
+}
+.container > div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.container p {
+    padding: 15px 0px;
+}
+
+.container button {
+    background-color: #4350F1;
+    padding: 15px;
+    color: white;
+    border: 1px solid #262626;
+}
+.container button:hover {
+    background-color: #00088A;
+    cursor: pointer;
+}
+
+.topo > div > div {
+    text-align: center;
+    padding: 20px;
+}
+
+.produtos > div > div {
+    flex-direction: row;
+    padding: 20px;
+}
+.produtos > div > div > div {
+    padding: 20px;
+}
+.produtos p {
+    text-align: justify;
+}
+
+.produtos h3 {
+    color: red;
+}
